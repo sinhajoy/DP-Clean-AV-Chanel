@@ -1,7 +1,7 @@
 #include "bits/stdc++.h"
 using namespace std;
-
 int maxprofit(int wt[],int val[],int W,int n){
+
     int t[n+1][W+1];
     for(int i=0;i<n+1;i++){
         for(int j=0;j<W+1;j++){
